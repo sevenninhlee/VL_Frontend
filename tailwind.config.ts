@@ -5,6 +5,11 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./containers/**/*.{js,ts,jsx,tsx,mdx}",
+    "./billing/**/*.{js,ts,jsx,tsx,mdx}",
+
+
+
   ],
   theme: {
     fontFamily: {
@@ -20,6 +25,7 @@ const config: Config = {
         vlocator_black: {
           DEFAULT: "#0F1E24",
           1: "#29333D",
+          2: "#181817"
         },
         vlocator_gray: {
           DEFAULT: "#f7f4f0",
@@ -27,6 +33,7 @@ const config: Config = {
           2: "#7E7B85",
           3: "#DFE1E5",
           4: "#DAD5CE",
+          5: "#E0DFE2"
         },
         vlocator_green: {
           DEFAULT: "#60C24F",

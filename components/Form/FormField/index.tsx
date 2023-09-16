@@ -10,7 +10,7 @@ import { Spinner } from "evergreen-ui";
 import { CloseIcon } from "assets/icons";
 
 interface Props extends InputHTMLAttributes<HTMLInputElement> {
-  label?: string;
+  label?: string; 
   type?: string;
   prefixIcon?: any;
   customClass?: string;
